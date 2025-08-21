@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html style="--tg-color-scheme: dark; --tg-theme-bg-color: #212121; --tg-theme-text-color: #ffffff; --tg-theme-hint-color: #aaaaaa; --tg-theme-link-color: #8774e1; --tg-theme-button-color: #8774e1; --tg-theme-button-text-color: #ffffff; --tg-theme-secondary-bg-color: #0f0f0f; --tg-theme-header-bg-color: #212121; --tg-theme-accent-text-color: #8774e1; --tg-theme-section-bg-color: #212121; --tg-theme-section-header-text-color: #aaaaaa; --tg-theme-subtitle-text-color: #aaaaaa; --tg-theme-destructive-text-color: #e53935; --tg-viewport-height: 100vh; --tg-viewport-stable-height: 100vh;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact for Full Code</title>
+    <meta name="description" content="Contact on Telegram for full source code">
+    <link rel="icon" href="./favicon.ico">
+    <style>
+        @keyframes glow {
+            0%, 100% {
+                text-shadow: 0 0 20px rgba(135, 116, 225, 0.5), 0 0 30px rgba(135, 116, 225, 0.3);
+            }
+            50% {
+                text-shadow: 0 0 40px rgba(135, 116, 225, 0.8), 0 0 60px rgba(135, 116, 225, 0.6);
+            }
+        }
+        
+        @keyframes buttonGlow {
+            0%, 100% {
+                box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+            }
+            50% {
+                box-shadow: 0 4px 25px rgba(59, 130, 246, 0.8), 0 0 30px rgba(59, 130, 246, 0.5);
+            }
+        }
+        
+        .main-container {
+            background-color: rgb(33, 33, 33);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .content-wrapper {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+        }
+        
+        .big-title {
+            font-size: 4rem;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin-bottom: 1rem;
+            animation: glow 3s ease-in-out infinite;
+            line-height: 1.1;
+        }
+        
+        .subtitle-text {
+            font-size: 1.2rem;
+            color: rgb(170, 170, 170);
+            margin: 30px 0;
+        }
+        
+        .telegram-button {
+            background: linear-gradient(45deg, #1e40af, #3b82f6);
+            border: none;
+            border-radius: 12px;
+            padding: 15px 40px;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: buttonGlow 2s infinite;
+            display: inline-block;
+            text-decoration: none;
+            min-width: 250px;
+        }
+        
+        .telegram-button:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(45deg, #1d4ed8, #2563eb);
+        }
+        
+        .button-text {
+            color: rgb(255, 255, 255);
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .instruction-text {
+            color: rgb(170, 170, 170);
+            font-size: 1rem;
+            margin-top: 20px;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .big-title {
+                font-size: 2.5rem;
+            }
+            .button-text {
+                font-size: 1.2rem;
+            }
+            .content-wrapper {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-wrapper">
+            <h1 class="big-title">CONTACT ON TELEGRAM</h1>
+            <h2 class="big-title">FOR FULL CODE</h2>
+            
+            <p class="subtitle-text">Get complete source code by contacting:</p>
+            
+            <a href="https://t.me/BackStair" target="_blank" class="telegram-button">
+                <span class="button-text">@BackStair</span>
+            </a>
+            
+            <p class="instruction-text">
+                Click the button above or search <strong>@BackStair</strong> on Telegram
+            </p>
+        </div>
+    </div>
+</body>
+</html>
